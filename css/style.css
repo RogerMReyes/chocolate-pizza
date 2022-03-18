@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+#section1 {
+  display: flex;  
+}
+
+img {
+  flex-shrink: 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* #bar {
+  background-image: url("img/hr-img.png");
+  background-repeat: repeat-x;
+  max-width: 100%;
+  height: auto;
+} */
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+}
+
+#section2 {
+  display: flex; 
+}
+
+#section2 img {
+  justify-content: flex-end;
+}
